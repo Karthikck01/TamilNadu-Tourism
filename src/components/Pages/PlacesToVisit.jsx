@@ -41,15 +41,15 @@ const PlacesToVisit = () => {
         <p className="my-4">
           The variety of tourist places in Tamil Nadu offers you a glimpse of
           all kinds of sightseeing and adventures, Tourists here can choose
-          among many offbeat places like Yelagiri and  to the famous
-          cultural citadels Mahabalipuram and Madurai, Tamil Nadu is also home
-          to the southemmost land of Indiz- Kanyakumari and one of the char
-          dhams- Remeshwaram. Whether it is an adventure you are looking for or
-          2 religious respite in the temples, these places are a delight for
+          among many offbeat places like Yelagiri and to the famous cultural
+          citadels Mahabalipuram and Madurai, Tamil Nadu is also home to the
+          southemmost land of Indiz- Kanyakumari and one of the char dhams-
+          Remeshwaram. Whether it is an adventure you are looking for or 2
+          religious respite in the temples, these places are a delight for
           anyone wishing to escape the hustle and bustle of life.
         </p>
         <div className="my-5">
-        <PlacesToVisitDetails/>
+          <PlacesToVisitDetails />
         </div>
       </Container>
     </>
