@@ -1,25 +1,21 @@
 import AppNavbar from "./components/Navbar/AppNavbar";
-import LandingPageCarousel from "./components/Carousel";
-import DestinationLinks from "./components/Destination/DestinationLinks";
-import Destination from "./components/Destination";
-import { DestinationData } from "./DestinationData";
-
+import Home from "./components/Pages/Home";
+import PlacesToVisit from "./components/Pages/PlacesToVisit";
 import { Container } from "react-bootstrap";
-
+import { Router,Route, Routes } from "react-router-dom";
 import "./App.css";
 
 function App() {
-  
   return (
     <>
       <AppNavbar />
       <Container>
-        <LandingPageCarousel />
-        <DestinationLinks />
-        {DestinationData.map((details) => {
-          return(<Destination data={details}/>)
-        })}
+       <Routes>
+       <Route path="/" element={<Home/>}/>
+       <Route path="/placestovisit" element={<PlacesToVisit/>}/>
+       </Routes>
       </Container>
+
     </>
   );
 }

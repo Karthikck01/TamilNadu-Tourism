@@ -1,14 +1,25 @@
 import React from "react";
 import { Nav } from "react-bootstrap";
+import {NavLink, Link} from "react-router-dom";
 
 const Navlinks = () => {
   return (
     <Nav>
       <Nav.Item>
-        <Nav.Link href="#" className='text-light'>Home</Nav.Link>
+      <NavLink
+          className={({ isActive }) =>
+            isActive ? "nav-link mx-4 fw-bold" : "nav-link mx-4 text-light"
+          }
+          to={"/"}
+        >Home</NavLink>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link href="#" className='text-light'>Places To Visits</Nav.Link>
+      <NavLink
+          className={({ isActive }) =>
+            isActive ? "nav-link mx-4 fw-bold" : "nav-link mx-4 text-light"
+          }
+          to={"placestovisit"}
+        >Places to visit</NavLink>
       </Nav.Item>
       <Nav.Item>
         <Nav.Link href="#" className='text-light'>Best Time To Visits</Nav.Link>
