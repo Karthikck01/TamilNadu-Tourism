@@ -14,15 +14,15 @@ const DesTimeData = [
     ],
     images: [
       {
-        name: "chennai",
+        name: "chennai, India source",
         img: "/Gallery/chennai1.jpeg",
       },
       {
-        name: "chennai",
+        name: "chennai, Kathipara source",
         img: "/Gallery/chennai2.jpeg",
       },
       {
-        name: "chennai",
+        name: "chennai Beach source",
         img: "/Gallery/chennai3.jpeg",
       },
     ],
@@ -98,15 +98,15 @@ const DesTimeData = [
     ],
     images: [
       {
-        name: "Rameshwaram",
+        name: "Railway Bridge source",
         img: "/Gallery/rameshwaram1.jpeg",
       },
       {
-        name: "Rameshwaram",
+        name: "LightHouse Source",
         img: "/Gallery/rameshwaram2.jpeg",
       },
       {
-        name: "Rameshwaram",
+        name: "Pilgirms Temple",
         img: "/Gallery/rameshwaram3.jpeg",
       },
     ],
@@ -151,15 +151,15 @@ const DesTimeData = [
     `],
     images: [
       {
-        name: "Kodaikanal,",
+        name: "UpperLake Source,",
         img: "/Gallery/kodaikanal1.jpeg",
       },
       {
-        name: "Kodaikanal Pillar Rocks",
+        name: "Kodaikanak Lake Source",
         img: "/Gallery/kodaikanal2.jpeg",
       },
       {
-        name: "Kodaikanal",
+        name: "Kodaikanal Pillar Rocks",
         img: "/Gallery/kodaikanal3.jpeg",
       },
     ],
@@ -216,15 +216,15 @@ const DesTimeData = [
     `],
     images: [
       {
-        name: "Mountain Railway",
+        name: "Mountain Railway source",
         img: "/Gallery/ooty1.jpeg",
       },
       {
-        name: "",
+        name: "Mountain railway source",
         img: "/Gallery/ooty2.jpeg",
       },
       {
-        name: "",
+        name: "Trekking ooty source",
         img: "/Gallery/ooty3.jpeg",
       },
     ],
@@ -479,11 +479,11 @@ const DesTimeData = [
     the weather is at its best.`],
     images: [
       {
-        name: "",
+        name: "EasyMytrip source",
         img: "/Gallery/yercaud1.jpeg",
       },
       {
-        name: "",
+        name: "Oyoroom source",
         img: "/Gallery/yercaud2.jpeg",
       },
       {
@@ -604,15 +604,15 @@ const DesTimeData = [
     `],
     images: [
       {
-        name: "",
+        name: "winter Source",
         img: "/Gallery/hogenakkal1.jpeg",
       },
       {
-        name: "",
+        name: "Monsoon source",
         img: "/Gallery/hogenakkal2.jpeg",
       },
       {
-        name: "",
+        name: "Dry source",
         img: "/Gallery/hogenakkal3.jpeg",
       },
     ],

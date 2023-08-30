@@ -47,7 +47,7 @@ const TimeToVisit = ({data}) => {
     
     <div className="my-5">
       
-      <div className="h2">{data.id < 10 ? `0${data.id}`: data.id} {data.name}</div>
+      <div className="h2 my-4">{data.id < 10 ? `0${data.id}`: data.id} {data.name}</div>
       <div className={`d-flex justify-content-between ${(data.id % 2) == 0 ? 'flex-row-reverse' : 'flex-row'}`}>
         <div className="w-50">
           <div className="h6 my-3">What is the best time to visit :</div>
@@ -62,7 +62,7 @@ const TimeToVisit = ({data}) => {
           >
             <Modal.Dialog>
               <Modal.Header closeButton>
-                <Modal.Title>More About {data.name}</Modal.Title>
+                <Modal.Title>More about Best Time to Travel {data.name}</Modal.Title>
               </Modal.Header>
 
               <Modal.Body >
@@ -72,7 +72,8 @@ const TimeToVisit = ({data}) => {
                       <img
                         src={img.img}
                         alt=""
-                        className="w-100 h-100"
+                        className="w-100"
+                        height={166}
                       />
                       {img.name}
                     </Col>)

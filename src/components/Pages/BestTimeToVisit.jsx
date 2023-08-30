@@ -8,8 +8,8 @@ const BestTimeToVisit = () => {
   return (
     <>
       <div className="h4 mt-5">TAMILNADU TUORISM</div>
-      <div className="h2">Best Time To Visit</div>
-      <Row>
+      <div className="h2 bb-5">Best Time To Visit</div>
+      <Row className="mt-5">
         <Col>
           <img src="/Gallery/Climate.jpeg" alt="" className="float-start" />
         </Col>
@@ -20,7 +20,8 @@ const BestTimeToVisit = () => {
           <Acc />
         </Col>
       </Row>
-      <div className="my-5 text-center pb-5">
+      <div className="my-5 pb-5">
+        <p>
         Best Time To Visit The best time to visit Tamil Nadu is during the
         winter season, ie. from November to February when the temperature is
         relatively low, and pleasant to explore the attractions in the state.
@@ -29,6 +30,7 @@ const BestTimeToVisit = () => {
         the hills stations. Tourists can pick the region they wish to see
         according to the season because offseason visits could be extremely
         inconvenient for some.
+        </p>
       </div>
 
       <div className="mt-5 text-center py-5">

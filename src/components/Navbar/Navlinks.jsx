@@ -36,7 +36,12 @@ const Navlinks = () => {
         <Nav.Link href="#" className='text-light'>Destination</Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link href="#" className='text-light'>Food</Nav.Link>
+      <NavLink
+          className={({ isActive }) =>
+            isActive ? "nav-link mx-4 fw-bold" : "nav-link mx-4 text-light"
+          }
+          to={"foods"}
+        >Foods </NavLink>
       </Nav.Item>
     </Nav>
   );
