@@ -30,10 +30,12 @@ const Navlinks = () => {
         >Best Time To Visits</NavLink>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link href="#" className='text-light'>Packages</Nav.Link>
-      </Nav.Item>
-      <Nav.Item>
-        <Nav.Link href="#" className='text-light'>Destination</Nav.Link>
+      <NavLink
+          className={({ isActive }) =>
+            isActive ? "nav-link mx-4 fw-bold" : "nav-link mx-4 text-light"
+          }
+          to={"packages"}
+        >Packages </NavLink>
       </Nav.Item>
       <Nav.Item>
       <NavLink
